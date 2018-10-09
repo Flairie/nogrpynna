@@ -5,7 +5,7 @@ import { Bot } from 'node-vk-bot'
 const { Bot } = require('node-vk-bot')
  
 const bot = new Bot({
-  token: 'YOUR TOKEN',
+  token: process.env.BOT_TOKEN,
   group_id: 123456
 }).start()
  
