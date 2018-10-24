@@ -6,7 +6,7 @@ const { Bot } = require('node-vk-bot')
  
 const bot = new Bot({
   token: process.env.BOT_TOKEN,
-  group_id: 123456
+  group_id: 172340531
 }).start()
  
 bot.get(/Hi|Hello|Hey/i, (message, exec, reply) => {
